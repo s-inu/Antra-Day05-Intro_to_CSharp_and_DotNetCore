@@ -1,0 +1,14 @@
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\bin\Debug\net8.0\Intro2CSharp.exe
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\bin\Debug\net8.0\Intro2CSharp.deps.json
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\bin\Debug\net8.0\Intro2CSharp.runtimeconfig.json
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\bin\Debug\net8.0\Intro2CSharp.dll
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\bin\Debug\net8.0\Intro2CSharp.pdb
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.AssemblyInfoInputs.cache
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.AssemblyInfo.cs
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.csproj.CoreCompileInputs.cache
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.dll
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\refint\Intro2CSharp.dll
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.pdb
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\Intro2CSharp.genruntimeconfig.cache
+c:\Users\sam\Desktop\Antra-Day05-Intro_to_CSharp_and_DotNetCore\Intro2CSharp\obj\Debug\net8.0\ref\Intro2CSharp.dll
