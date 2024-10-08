@@ -54,36 +54,83 @@
 
 
 
+
+
 ## Controlling Flow and Converting Types
 
 ### Test your Knowledge
 
 1. What happens when you divide an int variable by 0?
    - runtime `System.DivideByZeroException`
+
 2. What happens when you divide a double variable by 0?
    - positive double, `double.PositiveInfinity`
    - `0d`, `double.NaN`
    - positive double, `double.NegativeInfinity`
+
 3. What happens when you overflow an int variable, that is, set it to a value beyond its
    range?
    - if `checked`, `System.OverflowException`
    - otherwise, the value wraps to the other end of range
+
 4. What is the difference between x = y++; and x = ++y;?
    - `y++`, post-increment, `y+=1; x=y`;
    - `++y`, pre-increment, `x=y; y+=1;`
+
 5. What is the difference between break, continue, and return when used inside a loop
    statement?
    - `break`: exits the current loop
    - `continue`: skips the current iteration of the current loop
    - `return`: exits the method where the loop resides
+
 6. What are the three parts of a for statement and which of them are required?
    - `for(Initialization; Condition; Iteration){}`
+
 7. What is the difference between the = and == operators?
    - `=`, assignment operator
    - `==`, equality operator
+
 8. Does the following statement compile? for ( ; true; ) ;
    - Yes, and it creates an infinite loop
+
 9. What does the underscore _ represent in a switch expression?
-   - 
-10. What interface must an object implement to be enumerated over by using the foreach
-    statement?
+   - every expression, including `null`, always matches the discard pattern
+
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+    - `IEnumerable`
+
+
+
+### Practice loops and operators
+
+1.  What will happen if this code executes? 
+   Create a console application and enter the preceding code. Run the console application and view the output. What happens?
+   What code could you add (don’t change any of the preceding code) to warn us about the problem?
+
+```c#
+int max = 500;
+for (byte i = 0; i < max; i++)
+{
+	WriteLine(i);
+}
+```
+
+- infinite loop
+- revision for warning
+
+```c#
+int max = 500;
+for (byte i = 0; i < max; i++)
+{
+    if(max>byte.MaxValue){ // <-- start
+        WriteLine($"potential over flow and infinite loop: ${max}>{byte.MaxValue}!");
+        break;
+    } // <-- end
+	WriteLine(i);
+}
+```
+
+
+
+
+

@@ -3,8 +3,12 @@ using DataTypes;
 
 // PlayingwithConsoleApp.Play();
 
-// PracticeNumberSizesAndRanges.DisplayInfo();
-// PracticeNumberSizesAndRanges.ConvertCenturies();
+// NumberSizesAndRanges.DisplayInfo();
+// NumberSizesAndRanges.ConvertCenturies();
 
-var a=0d;
-Console.WriteLine(a/0);
+// LoopsAndOperators.FizzBuzz();
+// LoopsAndOperators.GuessNumber();
+// LoopsAndOperators.PrintAPyramid();
+// LoopsAndOperators.DOB();
+
+

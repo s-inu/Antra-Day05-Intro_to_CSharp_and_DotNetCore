@@ -3,7 +3,7 @@ namespace DataTypes;
 using System.Numerics;
 using static Utils.IO;
 
-public class PracticeNumberSizesAndRanges
+public class NumberSizesAndRanges
 {
   public static void DisplayInfo()
   {
