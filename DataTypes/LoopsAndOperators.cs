@@ -79,10 +79,41 @@ public class LoopsAndOperators
     int daysOld = (today - dob).Days;
     Console.WriteLine($"You are {daysOld} days old.");
 
-    int daysToNextAnniversary = 10000 - (daysOld % 10000);
+    int daysToNextAnniversary = 10_000 - (daysOld % 10_000);
     Console.WriteLine($"Days until the next 10,000 day anniversary: {daysToNextAnniversary}");
 
     DateTime nextAnniversaryDate = today.AddDays(daysToNextAnniversary);
     Console.WriteLine($"Your next 10,000 day anniversary will be on: {nextAnniversaryDate:MM/dd/yyyy}");
+  }
+
+  public static void Greeting(DateTime? time = null)
+  {
+    if (!time.HasValue) { time = DateTime.Now; }
+
+    int hour = time.Value.Hour;
+
+    if (IsInRange(hour, 0, 6)) { Console.WriteLine("Good Night"); return; }
+    if (IsInRange(hour, 6, 12)) { Console.WriteLine("Good Morning"); return; }
+    if (IsInRange(hour, 12, 18)) { Console.WriteLine("Good Afternoon"); return; }
+    if (IsInRange(hour, 18, 24)) { Console.WriteLine("Good Evening"); return; }
+  }
+
+  private static bool IsInRange(int target, int start, int end)
+  {
+    return target >= start && target < end;
+  }
+
+  public static void CountUpTo24()
+  {
+    string DELIMITER = ",";
+
+    for (int inc = 1; inc <= 4; inc++)
+    {
+      for (int cur = 0; cur <= 24; cur += inc)
+      {
+        Console.Write($"{cur}{(cur != 24 ? DELIMITER : "")}");
+      }
+      Console.WriteLine();
+    }
   }
 }

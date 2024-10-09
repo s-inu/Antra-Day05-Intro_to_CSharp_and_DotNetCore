@@ -12,4 +12,10 @@ public class IO
     return $"{item}?: ";
   }
 
+  public static T[] InputArrByElements<T>(string prompt, Func<string, T> parser, char delimiter = ' ')
+  {
+    string input = Input(prompt);
+    return input.Split(delimiter).Select(parser).ToArray();
+  }
+
 }

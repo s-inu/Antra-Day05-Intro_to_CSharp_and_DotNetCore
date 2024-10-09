@@ -10,5 +10,5 @@ using DataTypes;
 // LoopsAndOperators.GuessNumber();
 // LoopsAndOperators.PrintAPyramid();
 // LoopsAndOperators.DOB();
-
-
+// LoopsAndOperators.Greeting();
+// LoopsAndOperators.CountUpTo24();
